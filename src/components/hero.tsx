@@ -23,12 +23,12 @@ function Hero() {
             </button>
           </div>
           <div className="justify-center mt-16">
-            <img src="/rentacar/image 7.png" className="max-w-full h-auto" />
+            <img src="/rentacar/image 7.png" alt="car-image1" className="max-w-full h-auto" />
           </div>
         </div>
 
         {/* Card 2 */}
-        <div className="w-full md:w-[640px] h-[360px] bg-gradient-to-r from-[#3563E9] to-blue-300 rounded-md shadow-md flex flex-col md:flex-row items-center p-6">
+        <div className="w-full md:w-[640px] h-[360px] bg-gradient-to-r from-[#3563E9] to-blue-300 rounded-md shadow-md flex flex-col md:flex-row items-center p-4">
           <div className="text-white w-full md:w-[50%]">
             <h2 className="text-2xl md:text-3xl font-Plus Jakarta Sans">
               Easy way to rent a car at a low price
@@ -42,7 +42,7 @@ function Hero() {
             </button>
           </div>
           <div className= ' justify-center mt-16'>
-            <img src="/rentacar/image 8.png" className="max-w-full h-auto" />
+            <img src="/rentacar/image 8.png" alt="car-image2" className="max-w-full h-auto" />
           </div>
         </div>
       </div>

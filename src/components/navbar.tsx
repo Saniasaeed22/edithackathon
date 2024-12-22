@@ -27,7 +27,9 @@ function Navbar() {
             placeholder="Search something here"
             className="flex-1 bg-transparent outline-none text-sm"
           />
-          <img src="/rentacar/filter.png" className="w-5 h-5 md:w-6 md:h-6" />
+          <img src="/rentacar/filter.png" 
+              alt="filter"
+           className="w-5 h-5 md:w-6 md:h-6" />
         </div>
       </div>
 
@@ -39,9 +41,13 @@ function Navbar() {
         <p className="text-[#596780] text-xl md:text-2xl"><IoIosNotifications/></p>
          <p className="text-[#596780] text-xl md:text-2xl"><IoMdSettings /></p>
         <img
-          src="/rentacar/Profil.png"
+          src="/rentacar/Profil.png" alt="account"
           className="w-8 h-8 md:w-[44px] md:h-[44px] rounded-full"
         />
+      
+
+
+  
       </div>
     </div>
   );
